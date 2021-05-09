@@ -6,7 +6,6 @@ import nLayeredDemo.business.abstracts.ProductService;
 import nLayeredDemo.core.abstracts.LoggerService;
 import nLayeredDemo.dataAccess.abstracts.ProductDao;
 import nLayeredDemo.entities.concretes.Product;
-import nLayeredDemo.jLogger.jLoggerManager;
 
 public class ProductManager implements ProductService {
 	
