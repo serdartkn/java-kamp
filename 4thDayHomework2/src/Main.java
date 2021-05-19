@@ -14,7 +14,7 @@ public class Main {
 	
 		
 		BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new MerniceServiceAdapter());
-		baseCustomerManager.add(new Customer(1, "Serdar", "Tekin", LocalDate.of(5555, 9, 13), "46871452478"));	
+		baseCustomerManager.add(new Customer(1, "Serdar", "Tekin", LocalDate.of(1996, 9, 13), "46717134126"));	
 		
 		
 	}

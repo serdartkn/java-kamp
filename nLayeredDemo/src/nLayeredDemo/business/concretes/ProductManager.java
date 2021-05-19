@@ -9,8 +9,9 @@ import nLayeredDemo.entities.concretes.Product;
 
 public class ProductManager implements ProductService {
 	
-	private ProductDao productDao;
+	private ProductDao productDao;	
 	private LoggerService loggerService;
+	
 	public ProductManager(ProductDao productDao, LoggerService loggerService) {
 		this.productDao = productDao;
 		this.loggerService = loggerService;
@@ -40,7 +41,7 @@ public class ProductManager implements ProductService {
 	}
 
 	@Override
-	public Product get() {
+	public Product get(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -49,8 +50,6 @@ public class ProductManager implements ProductService {
 	public List<Product> getAll() {
 		// TODO Auto-generated method stub
 		return null;
-	}
-	
-	
+	}	
 
 }
