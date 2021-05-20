@@ -1,20 +1,20 @@
 package entities.concretes;
 
-public class User 
-{
+import core.entities.abstracts.Entity;
+
+public class User implements Entity{
+	
 	private int id;
 	private String firstName;
 	private String lastName;
 	private String eMail;
 	private String Password;
 	
-	public User() 
-	{
+	public User() {
 		
 	}
 
-	public User(int id, String firstName, String lastName, String eMail, String password)
-	{
+	public User(int id, String firstName, String lastName, String eMail, String password) {
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
